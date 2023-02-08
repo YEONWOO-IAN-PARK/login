@@ -9,7 +9,7 @@ public class Member {
 
     private Long id;
 
-    @NotEmpty()
+    @NotEmpty
     private String loginId; // 로그인 ID
     @NotEmpty
     private String name;
